@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://kit.fontawesome.com/7a10c7cd68.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">  
+
+  <title>JohnKot</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">CatzShop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Abouts us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="nav__icon fas fa-shopping-basket"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero container-fluid position-relative py-5">
+      <div class="hero__img"></div>
+      <div class="hero__text-box container py-5 text-white">
+        <h1>Welcome to CatzShop</h1>
+        <h3 class="fs-5 mb-5">You can find a lot of goodies here!</h3>
+        <button type="button" class="hero__btn btn btn-primary">See yourself</button>        
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <nav class="py-5 px-3 px-sm-0" aria-label="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item breadcrumb-item--main"><a href="#">Strona Główna</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Produkty</li>
+        </ol>
+      </div>
+    </nav>
+    <div class="container pb-5">
+      <div class="row px-3 px-sm-0">
+        <aside class="col-12 col-sm-4">
+          <h2 class="mb-4">Kategorie</h2>
+          <div class="list-group mb-5 pe-0 pe-lg-5">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Karma dla kotów
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Zabawki</a>
+            <a href="#" class="list-group-item list-group-item-action">Wieże i legowiska</a>
+            <a href="#" class="list-group-item list-group-item-action">Przysmaki</a>
+            <a href="#" class="list-group-item list-group-item-action">Smycze i plecaki</a>
+          </div>
+        </aside>
+        <section class="col-12 col-sm-8">
+          <h2 class="mb-4 px-0 px-md-2 px-xxl-3">Produkty</h2>
+          <nav class="nav-pagination px-0 px-md-2 px-xxl-3" aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled d-block d-sm-none">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item disabled d-none d-sm-block">
+                <a class="page-link">Poprzednia</a>
+              </li>
+              <li class="page-item active"><a class="page-link px-3" href="#">1</a></li>
+              <li class="page-item" aria-current="page">
+                <a class="page-link px-3" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link px-3" href="#">3</a></li>
+              <li class="page-item d-none d-sm-block">
+                <a class="page-link" href="#">Następna</a>
+              </li>
+              <li class="page-item d-block d-sm-none">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="cards">
+            <div class="col-12 col-md-6 col-xl-4 px-0 px-md-2 px-xxl-3 mb-4">
+            <div class="card">
+              <img src="images/RoyalCanin1.jpg" class="card-img-top cards__img" alt="Karma dla kota Royal Canin">
+              <div class="card-body">
+                <h5 class="card-title">Royal Canin Senior 12+</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, dolorem totam vel adipisci asperiores sint.</p>
+                <a href="#" class="btn btn-primary mb-3 px-5">Kup</a>
+                <p class="lead">25.00$</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 px-0 px-md-2 px-xxl-3 mb-4">
+            <div class="card">
+              <img src="images/RoyalCanin2.jpg" class="card-img-top cards__img" alt="Karma dla kota Royal Canin">
+              <div class="card-body">
+                <h5 class="card-title">Royal Canin Senior 12+</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, dolorem totam vel adipisci asperiores sint.</p>
+                <a href="#" class="btn btn-primary mb-3 px-5">Kup</a>
+                <p class="lead">25.00$</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 px-0 px-md-2 px-xxl-3 mb-4">
+            <div class="card">
+              <img src="images/RoyalCanin3.jpg" class="card-img-top cards__img" alt="Karma dla kota Royal Canin">
+              <div class="card-body">
+                <h5 class="card-title">Royal Canin Senior 12+</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, dolorem totam vel adipisci asperiores sint.</p>
+                <a href="#" class="btn btn-primary mb-3 px-5">Kup</a>
+                <p class="lead">25.00$</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 px-0 px-md-2 px-xxl-3 mb-4">
+            <div class="card">
+              <img src="images/RoyalCanin4.jpg" class="card-img-top cards__img" alt="Karma dla kota Royal Canin">
+              <div class="card-body">
+                <h5 class="card-title">Royal Canin Senior 12+</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, dolorem totam vel adipisci asperiores sint.</p>
+                <a href="#" class="btn btn-primary mb-3 px-5">Kup</a>
+                <p class="lead">25.00$</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 px-0 px-md-2 px-xxl-3 mb-4">
+            <div class="card">
+              <img src="images/RoyalCanin5.jpg" class="card-img-top cards__img" alt="Karma dla kota Royal Canin">
+              <div class="card-body">
+                <h5 class="card-title">Royal Canin Senior 12+</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, dolorem totam vel adipisci asperiores sint.</p>
+                <a href="#" class="btn btn-primary mb-3 px-5">Kup</a>
+                <p class="lead">25.00$</p>
+              </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 px-0 px-md-2 px-xxl-3 mb-4">
+            <div class="card">
+              <img src="images/RoyalCanin6.jpg" class="card-img-top cards__img" alt="Karma dla kota Royal Canin">
+              <div class="card-body">
+                <h5 class="card-title">Royal Canin Senior 12+</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, dolorem totam vel adipisci asperiores sint.</p>
+                <a href="#" class="btn btn-primary mb-3 px-5">Kup</a>
+                <p class="lead">25.00$</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="newsletter container-fluid">
+      <div class="container">
+        <div class="row py-5 text-white">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <h5 class="h2"><i class="newsletter__icon fas fa-store me-2"></i>CatzShop</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nesciunt sapiente. Velit, ut mollitia quae voluptatem suscipit sunt itaque facere. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, repellat.</p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <form action="/">
+              <label for="exampleFormControlInput1" class="form-label h2"><i class="newsletter__icon far fa-envelope me-2"></i>Newsletter</label>
+              <div class="input-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <button type="submit" class="btn btn-secondary text-white">Dołącz</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer container-fluid text-white text-center py-5">
+    <p class="footer__text lead m-0">CatzShop &copy 2021</p>
+  </footer>
+  
+</body>
+
+</html>

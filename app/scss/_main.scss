@@ -1,0 +1,33 @@
+.nav {
+   background-color: #fff;
+}
+
+.nav__icon {
+   font-size: 1.4rem;
+   color: $secondary;
+}
+
+.breadcrumb-item--main {
+   color: $primary;
+}
+
+.nav-pagination {
+   @media(max-width: 768px) {
+      font-size: 0.8rem;
+   }
+}
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.newsletter {
+   background-color: rgb(54, 38, 30);
+}
+
+.newsletter__icon {
+   color: $secondary;
+}
